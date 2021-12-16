@@ -14,17 +14,34 @@
 
     document.getElementById("addition").addEventListener("click", () => {
         // perform an addition
+        let a = document.getElementById("op-one").value;
+        let b = document.getElementById("op-two").value;
+        
+        alert("The result is : " + (Number(a)+Number(b)))
+        
     });
 
     document.getElementById("substraction").addEventListener("click", () => {
         // perform an substraction
+        let a = document.getElementById("op-one").value;
+        let b = document.getElementById("op-two").value;
+
+        alert("The result is : "+(Number(a)-Number(b)))
     });
 
     document.getElementById("multiplication").addEventListener("click", () => {
         // perform an multiplication
+        let a = document.getElementById("op-one").value;
+        let b = document.getElementById("op-two").value;
+
+        alert("The result is : "+(Number(a)*Number(b)))
     });
 
     document.getElementById("division").addEventListener("click", () => {
         // perform an division
+        let a = document.getElementById("op-one").value;
+        let b = document.getElementById("op-two").value;
+
+        alert("The result is : "+(Number(a)/Number(b)))
     });
 })();
