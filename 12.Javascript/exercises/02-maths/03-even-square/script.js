@@ -10,12 +10,12 @@
 // You will have time to focus on it later.
 
 (() => {
-     var array=new Array();
+     var array = new Array();
      document.getElementById("run").addEventListener("click", () => {
         // your code here
           for ( let i=1; i<21 ; i++){
            if ((i%2) == 0){
-           let square= i*i;
+           let square = i*i;
            array.push(square);
            }
        }

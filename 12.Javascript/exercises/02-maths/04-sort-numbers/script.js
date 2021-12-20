@@ -11,8 +11,9 @@
 
 (() => {
     // to get the value of an input: document.getElementById("element-id").value
-
-    document.getElementById("run").addEventListener("click", () => {
+    var nombre = document.getElementById("run").addEventListener("click", () => {
         // your code here
+
+        nombre.sort(function)
     });
 })();
